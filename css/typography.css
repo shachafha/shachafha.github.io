@@ -47,3 +47,12 @@ body {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+
+.project-card {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
