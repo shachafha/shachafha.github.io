@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="../assets/images/fake_jobs_logo.png" />
+  <title>Fake Job Listings Detection</title>
+  <meta name="description" content="Detecting fake job listings using semi-supervised ML." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <script defer src="../js/script.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <a class="nav-title-link" href="../index.html">
+      <span class="nav-title">Shachaf Chaviv</span>
+      <a class="button" href="mailto:shachaf.haviv@gmail.com">
+        <span class="button-text">Contact Me</span>
+      </a>
+    </a>
+  </div>
+
+  <div id="main-content">
+    <div id="project-header">
+      <div class="main-title">Detecting Fake Job Listings</div>
+      <div class="body-text">Built a semi-supervised ML system to detect fraudulent job ads using structured features, embeddings, and real-world intuition.</div>
+      <image class="project-header-image" src="../assets/images/fake_jobs_logo.png">
+    </div>
+
+    <div id="project-details">
+      <div class="subheader-text">Project Details / Background</div>
+      <div class="project-details-content">
+        <div class="body-text">
+          This project started from a simple but important question: how can we tell if a job listing is real or fake? I gathered data from LinkedIn, Indeed, and a Kaggle dataset, and built a semi-supervised learning pipeline that combined structured features with large language models to uncover patterns that human readers might miss.
+        </div>
+        <div class="body-text">
+          I experimented with different feature engineering approaches (including document length, salary mentions, keyword usage) and used pseudo-labeling to improve the model’s ability to generalize. Ultimately, the project highlighted how a mix of intuition, automation, and clean data can come together to solve a real-world challenge with real impact.
+        </div>
+      </div>
+    </div>
+
+    <div id="project-gallery">
+      <div class="subheader-text">Image Gallery</div>
+      <div class="project-gallery-content">
+        <div class="gallery-image-container">
+          <img src="../assets/images/fake_jobs_poster.png" class="gallery-image">
+          <span class="image-caption">Poster presented for the Fake Job Detection project.</span>
+        </div>
+        <div class="gallery-image-container half-width">
+          <img src="../assets/images/fake_jobs_chart.png" class="gallery-image">
+          <span class="image-caption">Model results: precision and recall on labeled samples.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <a class="icon-link" href="mailto:shachaf.haviv@gmail.com">
+      <image src="../assets/icons/mail.svg" class="footer-icon"/>
+    </a>
+  </div>
+</body>
+</html>
