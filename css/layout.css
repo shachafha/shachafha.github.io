@@ -108,12 +108,9 @@ body {
 
     .project-image {
       width: 100%;
-      height: auto;
-      max-height: 160px;  /* or adjust as needed */
-      object-fit: contain;
+      height: 200px;
+      object-fit: cover;
       object-position: center;
-      padding: 12px;  /* optional, adds spacing around logo */
-      background-color: #fff; /* optional: ensures logos look nice if they're PNGs */
     }
 
 
